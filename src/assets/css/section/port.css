@@ -95,9 +95,6 @@
     border-bottom: 2px solid var(--black100);
     margin-bottom: 1rem;
 }
-.port__item .desc {
-    font-size: 1rem;
-}
 .port__item .site {
     border: 1px solid var(--black100);
     display: block;
