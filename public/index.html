@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="한가지 사이트를 다양한 프레임워크를 통해 만들어 보는 포트폴리오 사이트입니다."/>
+    <meta name="keyword" content="포트폴리오, 리액트, 넥스트, portfolio, react.js, next.js" />
+    <title>포트폴리오 사이트 만들기 : Vite</title>
+
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon-C4ISxiSf.svg" />
+
+  <script type="module" crossorigin src="/assets/index-CkxzaHKx.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-BKL1v_oO.css">
+</head>
+<body>
+    <div id="skip">
+        <a href="#header">헤더 영역 바로가기</a>
+        <a href="#intro">소개 영역 바로가기</a>
+        <a href="#skill">스킬 영역 바로가기</a>
+        <a href="#site">사이트 영역 바로가기</a>
+        <a href="#port">포트폴리오 영역 바로가기</a>
+        <a href="#contact">연락처 영역 바로가기</a>
+        <a href="#footer">푸터 영역 바로가기</a>
+
+    </div>
+    <!-- skip -->
+     
+    <header id="header" role="banner">
+        <div class="header__inner">
+            <div class="header__logo">
+                <h1>
+                    <a href="#">portfolio<em>vite</em></a>
+                </h1>
+            </div>
+            <nav class="header__nav">
+                <ul>
+                    <li><a href="#intro">intro</a></li>
+                    <li><a href="#skill">skill</a></li>
+                    <li><a href="#site">site</a></li>
+                    <li><a href="#port">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+            <div 
+                class="header__nav__mobile" 
+                id="headerToggle" 
+                aria-controls="primary-menu" 
+                aria-expanded="false" 
+                role="button"
+                tabindex="0"
+            >
+                <span></span>
+            </div>
+        </div>
+    </header>
+    <!-- header -->
+
+    <main id="main" role="main">
+        <section id="intro">
+            <div class="intro__inner">
+                <h2 class="intro__title">
+                    port developer
+                </h2>
+                <div class="intro_lines" aria-hidden="true">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+                <div class="intro__text">
+                    <div class="text">
+                        <div>talent is</div>
+                        <div>found at the end of the</div>
+                        <div>effort</div>
+                    </div>
+                    <div class="img">
+                        <img src="/assets/about-4Zc2Bsib.jpg" alt="어바웃미">
+                    </div>
+                </div>
+                <div class="intro_lines bottom" aria-hidden="true">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+            </div>
+        </section>
+        <!-- intro -->
+
+        <section id="skill">
+            <div class="skill__inner">
+                <h2 class="skill__title">
+                    challenge <em>나의 도전</em>
+                </h2>
+                <div class="skill__desc">
+                    <div>
+                        <span>1.</span>
+                        <h3>꿈을 설계하고 디자인하다.</h3>
+                        <p>
+                            나는 공간을 만드는 것을 좋아한다. 
+                            어려을 때부터 나만의 공간을 만드는 것을 좋아했고 나만의 다락방을 좋아했다. 
+                            단 한 사람이라도 내가 만든 공간 속에서 영감을 받거나 마음이 움직였으면 좋겠다.
+                            나만의 공간을 마음것 만들 수 있다는 건 코딩에 엄청난 매력인거 같다. 
+                            그 한구석에 나만의 꿈을 설계하고, 개발을 하며 앞으로도 살고 싶다.
+                        </p>
+                    </div>
+                    <div>
+                        <span>2.</span>
+                        <h3>열심히 할수록 기회는 따른다.</h3>
+                        <p>
+                            운이 좋은 사람은 없다. 단지 운을 만들 뿐이다. 
+                            운을 만들기 위해서는 내가 좋아하는 일이나 내가 하고 싶은 일에 몰두하면 된다.
+                            몰두 하다보면 길이 보이고 방향이 보이게 된다. 
+                            운이란 고된 노동과 노력을 통해 스스로 만들어 내는 것이다.
+                        </p>
+                    </div>
+                    <div>
+                        <span>3.</span>
+                        <h3>나에게 정직하다.</h3>
+                        <p>
+                            정직은 다른 사람보다 나에게 큰 의미를 부여해야 한다. 
+                            자신이 정직하지 않으면 진정으로 원하는 일을 열정적으로 밀고 나갈 수 없다. 
+                            마음에서 우러나오는 일을 해야 정직해지며 삶을 더 즐길 줄 알게 된다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- skill -->
+
+        <section id="site">
+            <div class="site__inner">
+                <h2 class="site__title">
+                    Site coding <em>나의 작업물</em>
+                </h2>
+                <div class="site__wrap">
+                    <article class="site__item s1">
+                        <span class="num">1.</span>
+                        <div class="text">
+                            <div>make</div>
+                            <div>site compliant width</div>
+                            <div>webstandard</div>
+                        </div>
+                        <h3 class="title">
+                            VITE를 이용한 사이트 제작
+                        </h3>
+                        <div class="btn">
+                            <a href="https://github.com/joon6390/PortFolio-vite">code</a>
+                            <a href="https://PortFolio-vite.netlify.app">view</a>
+                        </div>
+                        <div class="info">
+                            <span>site coding</span>
+                            <span>production period : two days</span>
+                            <span>use stack : html5/css3, CSS Variable, Vite</span>
+                        </div>
+                    </article>
+                    <article class="site__item s2">
+                        <span class="num">2.</span>
+                        <div class="text">
+                            <div>make</div>
+                            <div>site compliant width</div>
+                            <div>webstandard</div>
+                        </div>
+                        <h3 class="title">
+                            리액트를 이용한 사이트 제작
+                        </h3>
+                        <div class="btn">
+                            <a href="https://github.com/joon6390/PortFolio-react">code</a>
+                            <a href="https://PortFolio-react.netlify.app">view</a>
+                        </div>
+                        <div class="info">
+                            <span>site coding</span>
+                            <span>production period : two days</span>
+                            <span>use stack : html5/css3, CSS Variable, React</span>
+                        </div>
+                    </article>
+                    <article class="site__item s3">
+                        <span class="num">3.</span>
+                        <div class="text">
+                            <div>make</div>
+                            <div>site compliant width</div>
+                            <div>webstandard</div>
+                        </div>
+                        <h3 class="title">
+                            넥스트를 이용한 사이트 제작
+                        </h3>
+                        <div class="btn">
+                            <a href="https://github.com/joon6390/PortFolio-next">code</a>
+                            <a href="https://PortFolio-next.netlify.app">view</a>
+                        </div>
+                        <div class="info">
+                            <span>site coding</span>
+                            <span>production period : two days</span>
+                            <span>use stack : html5/css3, CSS Variable, Next</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- site -->
+
+        <section id="port">
+            <div class="port__inner">
+                <h2 class="port__title">
+                    portfolio <em>포폴 작업물</em>
+                </h2>
+                <div class="port__wrap">
+                    <article class="port__item p1">
+                        <span class="num">01.</span>
+                        <a href="https://github.com/kimsangjunv1/-React-Portfolio" target="_blank" class="img">
+                            <img src="/assets/port01-L6h3U_1F.jpg" alt="김상준 포트폴리오" />
+                        </a>
+                        <h3 class="title">어워드에도 올라간 포트폴리오</h3>
+                        <a href="https://portfoliosj-react.netlify.app/" target="_blank" class="site">사이트 보기</a>
+                    </article>
+                    <article class="port__item p2">
+                        <span class="num">02.</span>
+                        <a href="https://github.com/seolhee313/PORTFOLIO-REACT" class="img" target="_blank">
+                            <img src="/assets/port02-q8QvVx6U.jpg" alt="천설희 포트폴리오" />
+                        </a>
+                        <h3 class="title">빛나는 밤에 포트폴리오</h3>
+                        <a href="https://portfolio-313.web.app/" target="_blank" class="site">사이트 보기</a>
+                    </article>
+                    <article class="port__item p3">
+                        <span class="num">03.</span>
+                        <a href="https://github.com/YeoDaSeul4355/portfolio" class="img" target="_blank">
+                            <img src="/assets/port03-C4xWPCkh.jpg" alt="여다슬 포트폴리오" />
+                        </a>
+                        <h3 class="title">열정이 넘치는 포트폴리오</h3>
+                        <a href="https://portfolio-jjul.web.app/" target="_blank" class="site">사이트 보기</a>
+                    </article>
+                    <article class="port__item p4">
+                        <span class="num">04.</span>
+                        <a href="https://github.com/dlgnsrb227/portfolio-next" class="img" target="_blank">
+                            <img src="/assets/port04-CdrSUsk6.jpg" alt="이훈규 포트폴리오" />
+                        </a>
+                        <h3 class="title">모던한 포트폴리오</h3>
+                        <a href="https://hoongportfolio-next.netlify.app/" target="_blank" class="site">사이트 보기</a>
+                    </article>
+                    <article class="port__item p5">
+                        <span class="num">05.</span>
+                        <a href="/" class="img" target="_blank">
+                            <img src="/assets/port05-CFtlcGWn.jpg" alt="박준승 포트폴리오" />
+                        </a>
+                        <h3 class="title">가로모드의 정석 포트폴리오</h3>
+                        <a href="https://junseungpark.github.io/portfolio/index3.html" target="_blank" class="site">사이트 보기</a>
+                    </article>
+                    <article class="port__item p6">
+                        <span class="num">06.</span>
+                        <a href="/" class="img" target="_blank">
+                            <img src="/assets/port06-CIxspezv.jpg" alt="포트폴리오" />
+                        </a>
+                        <h3 class="title">화려함의 정석 포트폴리오</h3>
+                        <a href="https://webstoryboy.github.io/port2023/portfolio-student/DavidYang/index.html" target="_blank" class="site">사이트 보기</a>
+                    </article>
+                    <article class="port__item p7">
+                        <span class="num">07.</span>
+                        <a href="/" class="img" target="_blank">
+                            <img src="/assets/port07-CDdiwdf3.jpg" alt="포트폴리오" />
+                        </a>
+                        <h3 class="title">패럴랙스 정석 포트폴리오</h3>
+                        <a href="https://webstoryboy.github.io/port2023/portfolio-student/TaeyongLee/index.html" target="_blank" class="site">사이트 보기</a>
+                    </article>
+                    <article class="port__item p8">
+                        <span class="num">08.</span>
+                        <a href="/" class="img" target="_blank">
+                            <img src="/assets/port08-DONUWp0l.jpg" alt="김현로 포트폴리오" />
+                        </a>
+                        <h3 class="title">트랜지션 포트폴리오</h3>
+                        <a href="https://webstoryboy.github.io/port2023/portfolio-student/HyunroKim/index.html" target="_blank" class="site">사이트 보기</a>
+                    </article>
+                    <article class="port__item p9">
+                        <span class="num">09.</span>
+                        <a href="/" class="img" target="_blank">
+                            <img src="/assets/port09-CJZcYFEF.jpg" alt="포트폴리오" />
+                        </a>
+                        <h3 class="title">스크롤의 정석 포트폴리오</h3>
+                        <a href="https://webstoryboy.github.io/port2023/portfolio-student/ChoJaeHyung/index.html" target="_blank" class="site">사이트 보기</a>
+                    </article>
+                    <article class="port__item p10">
+                        <span class="num">10.</span>
+                        <a href="/" class="img" target="_blank"> 
+                            <img src="/assets/port10-CliMYrKf.jpg" alt="포트폴리오" />
+                        </a>
+                        <h3 class="title">모던함의 정석 포트폴리오</h3>
+                        <a href="https://webstoryboy.github.io/port2023/portfolio-student/JooHyeji/index.html" target="_blank" class="site">사이트 보기</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- //port -->
+
+        <section id="contact">
+            <div class="contact__inner">
+                <h2 class="contact__title">Contact</h2>
+                <div class="contact__lines top" aria-hidden="true">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+                <div class="contact__text">
+                    <div class="text">
+                        <div>
+                            <a href="mailto:joon6390@naver.com" target="_blank">mail : joon6390@NAVER.COM</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact__lines" aria-hidden="true">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+            </div>
+        </section>
+        <!-- contact -->
+
+    </main>
+    <!-- main -->
+
+    <footer id="footer" role="contentinfo">
+        <div class="footer__inner">
+            <h2 class="footer__text">
+                <div>joon6390</div>
+                <div>@joon</div>
+            </h2>
+            <div class="footer__info">
+                <div class="left">
+                    <div class="title">
+                        <a href="#">sign up</a>
+                    </div>
+                    <p class="desc">회원가입을 하시면 댓글과 게시판 기능을 이용할 수 있습니다.</p>
+                </div>
+                <div class="right">
+                    <h3>social</h3>
+                    <ul>
+                        <li>
+                            <a href="https://www.youtube.com/@Webstoryboy">youtube</a>
+                            <em>유튜브에 오시면 더 많은 강의를 볼 수 있습니다.</em>
+                        </li>
+                        <li>
+                            <a href="https://github.com/webstoryboy">github</a>
+                            <em>깃헙에 들어오시면 모든 소스를 볼 수 있습니다.</em>
+                        </li>
+                        <li>
+                            <a href="https://webstoryboy.co.kr">tistory</a>
+                            <em>티스토리에 들어오시면 좋은 정보 볼 수 있습니다.</em>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/playlist?list=PL4UVBBIc6giL8-6jvrClimg0cFL-Muqiq">gsap</a>
+                            <em>GSAP를 공부하시고 오면 도움이 됩니다.</em>
+                        </li>
+                        <li>
+                            <a href="https://github.com/webstoryboy/port2023-vite">vite</a>
+                            <em>비트 강의도 곧 오픈 예정입니다.</em>
+                        </li>
+                        <li>
+                            <a href="https://github.com/webstoryboy/port2023-react">react</a>
+                            <em>리액트 강의도 곧 오픈 예정입니다.</em>
+                        </li>
+                        <li>
+                            <a href="https://github.com/webstoryboy/port2023-vue">vue</a>
+                            <em>뷰 강의도 곧 오픈 예정입니다.</em>
+                        </li>
+                        <li>
+                            <a href="https://github.com/webstoryboy/port2023-next">next</a>
+                            <em>넥스트 강의도 곧 오픈 예정입니다.</em>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__right">
+                &copy; 2025 joon6390<br />
+                이 사이트는 비트를 이용하여 제작하였습니다.
+            </div>
+        </div>
+    </footer>
+    <!-- footer -->
+
+
+</body>
+</html>
