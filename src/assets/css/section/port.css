@@ -95,12 +95,19 @@
     border-bottom: 2px solid var(--black100);
     margin-bottom: 1rem;
 }
+.port__item .desc {
+    font-size: 1rem;
+}
 .port__item .site {
     border: 1px solid var(--black100);
     display: block;
     text-align: center;
     padding: 0.625rem 1.5rem;
     margin-top: 1.5rem;
+}
+.port__item .site:hover {
+    background-color: var(--black100);
+    color: var(--white);
 }
 
 @media (max-width: 800px) {
