@@ -55,7 +55,7 @@
         top: 68px;
         background-color: var(--mainBg-color);
     }
-    .skill__desc p {
+    .skill__desc {
         width: 100%;
     }
     .skill__desc span {
