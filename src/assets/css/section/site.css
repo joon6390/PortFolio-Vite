@@ -42,6 +42,10 @@
     background-color: var(--subBg300);
     top: 220px;
 }
+.site__item.s4 {
+    background-color: var(--subBg400);
+    top: 240px;
+}
 .site__item .num {
     font-size: 5vw;
     line-height: 1;
@@ -73,6 +77,7 @@
     color: var(--black200);
     font-size: 1rem;
     transition: all 0.3s;
+    margin: 0 2px;
 }
 .site__item .btn a:hover {
     color: var(--black);
@@ -113,6 +118,12 @@
     }
     .site__item.s3 {
         top: 180px;
+    }
+    .site__item.s3 {
+        top: 180px;
+    }
+    .site__item.s4 {
+        top: 200px;
     }
     .site__item .num {
         font-size: 80px;
