@@ -31,9 +31,9 @@
 }
 .port__item {
     width: 500px;
-    height: 70vh;
+    height: auto;
     background-color: var(--subBg100);
-    padding: 2.5rem;
+    padding: 0.5rem 2rem;
     margin-right: 20px;
 }
 .port__item.p1 {
@@ -97,6 +97,11 @@
 }
 .port__item .desc {
     font-size: 1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
 }
 .port__item .site {
     border: 1px solid var(--black100);
