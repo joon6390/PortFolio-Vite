@@ -18,6 +18,6 @@ export function port() {
             markers: false,
             invalidateOnRefresh: true,
             anticipatePin: 1,
-        }
+        },
     });
 }
